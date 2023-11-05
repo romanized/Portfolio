@@ -1,0 +1,12 @@
+        /* CSS for back to projects button (Lighting effect)  */
+      @keyframes lightning {
+        0%, 100% {
+          box-shadow: none;
+        }
+        50% {
+          box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
+        }
+      }
+      .btn-hover-animation:hover {
+        animation: lightning 1s ease-in-out;
+      }

@@ -1,3 +1,4 @@
+// Javascript for projects page (Dark mode & Light mode)
 document.addEventListener('DOMContentLoaded', (event) => {
     if(localStorage.getItem('theme') === 'dark-mode') {
         applyDarkMode();
@@ -28,3 +29,4 @@ function removeDarkMode() {
     document.body.classList.add('bg-[#e2e2e2]');
     colorChange.classList.add('fa-rotate-180');
 }
+// 
