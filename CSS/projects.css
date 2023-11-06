@@ -68,3 +68,11 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+
+  .contact-linked { 
+    opacity: 70%;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-linked:hover { 
+    opacity: 100%;
+  }
